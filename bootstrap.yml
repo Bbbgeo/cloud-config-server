@@ -6,7 +6,9 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
     instance:
       hostname: localhost
-      
+
+test: http://TICKET-BOOKING-SERVICE/order
+
 microservice:
   ticket-booking:
     endpoints:
